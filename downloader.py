@@ -26,7 +26,7 @@ def main():
     try:
         print("Downloading starting...\n")
         urllib.request.urlretrieve(vid_link, clip_name)
-        print("Download completed..!!")
+        print("Download completed!")
     except Exception as e:
         print(e)
 
