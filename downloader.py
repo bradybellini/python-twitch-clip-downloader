@@ -5,11 +5,11 @@ import re
 
 
 def main():
-    clip_url = input('Please input the link of the clip: ')
+    clip_url = input('Please enter the link of the clip(embed links not supported): ')
     clip_name = input('Enter the name for the clip to be saved as: ')
 
     if not clip_name:
-        clip_name = 'clip' + '.mp4'
+        clip_name = 'clip.mp4'
     else:
         clip_name = clip_name + '.mp4'
 
