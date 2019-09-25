@@ -3,6 +3,7 @@ import json
 import requests
 import re
 
+#look into urllib.parse for urls instead of the ugly regex
 
 def main():
     clip_url = input('Please enter the link of the clip(embed links not supported): ')
